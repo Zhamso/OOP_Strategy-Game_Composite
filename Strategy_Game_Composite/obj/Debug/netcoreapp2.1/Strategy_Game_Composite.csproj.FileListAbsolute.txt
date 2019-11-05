@@ -1,0 +1,11 @@
+C:\Users\Zhamso\source\repos\Strategy_Game_Composite\Strategy_Game_Composite\bin\Debug\netcoreapp2.1\Strategy_Game_Composite.deps.json
+C:\Users\Zhamso\source\repos\Strategy_Game_Composite\Strategy_Game_Composite\bin\Debug\netcoreapp2.1\Strategy_Game_Composite.runtimeconfig.json
+C:\Users\Zhamso\source\repos\Strategy_Game_Composite\Strategy_Game_Composite\bin\Debug\netcoreapp2.1\Strategy_Game_Composite.runtimeconfig.dev.json
+C:\Users\Zhamso\source\repos\Strategy_Game_Composite\Strategy_Game_Composite\bin\Debug\netcoreapp2.1\Strategy_Game_Composite.dll
+C:\Users\Zhamso\source\repos\Strategy_Game_Composite\Strategy_Game_Composite\bin\Debug\netcoreapp2.1\Strategy_Game_Composite.pdb
+C:\Users\Zhamso\source\repos\Strategy_Game_Composite\Strategy_Game_Composite\obj\Debug\netcoreapp2.1\Strategy_Game_Composite.csproj.CoreCompileInputs.cache
+C:\Users\Zhamso\source\repos\Strategy_Game_Composite\Strategy_Game_Composite\obj\Debug\netcoreapp2.1\Strategy_Game_Composite.AssemblyInfoInputs.cache
+C:\Users\Zhamso\source\repos\Strategy_Game_Composite\Strategy_Game_Composite\obj\Debug\netcoreapp2.1\Strategy_Game_Composite.AssemblyInfo.cs
+C:\Users\Zhamso\source\repos\Strategy_Game_Composite\Strategy_Game_Composite\obj\Debug\netcoreapp2.1\Strategy_Game_Composite.dll
+C:\Users\Zhamso\source\repos\Strategy_Game_Composite\Strategy_Game_Composite\obj\Debug\netcoreapp2.1\Strategy_Game_Composite.pdb
+C:\Users\Zhamso\source\repos\Strategy_Game_Composite\Strategy_Game_Composite\obj\Debug\netcoreapp2.1\Strategy_Game_Composite.csprojAssemblyReference.cache
