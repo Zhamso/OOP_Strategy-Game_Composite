@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace Strategy_Game_Composite
@@ -14,9 +14,9 @@ namespace Strategy_Game_Composite
 
             Army knights = new Army();
             knights.Add(new Knight());
-                Army subArmy = new Army();
-                subArmy.Add(new Knight());
-                subArmy.Add(new Archer());
+            Army subArmy = new Army();
+            subArmy.Add(new Knight());
+            subArmy.Add(new Archer());
             knights.Add(subArmy);
 
             Battlefield battlefield = new Battlefield(archers, knights, 10);
@@ -28,6 +28,8 @@ namespace Strategy_Game_Composite
             }
             Console.ReadKey();
             battlefield.PrintScores();
+
+            Console.ReadKey();
         }
     }
 }
