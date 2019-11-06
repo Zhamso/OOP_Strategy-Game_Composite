@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -22,27 +22,27 @@ namespace Strategy_Game_Composite
         {
             if(turn == 1)
             {
-                Console.WriteLine($"---Ход армии 1---");
+                Console.WriteLine("---Ход армии 1---");
                 if(army1.GetRange() < distance)
                 {
-                    Console.WriteLine($"Армия 1 перемещается ближе на {army1.GetSpeed()}");
+                    Console.WriteLine("Армия 1 перемещается ближе на {0}", army1.GetSpeed());
                     distance = constrainToPositive(distance - army1.GetSpeed());
                 }
-                Console.WriteLine($"Армия 1 наносит {army1.Fire(distance)} урона сопернику");
+                Console.WriteLine("Армия 1 наносит {0} урона сопернику", army1.Fire(distance));
                 army1Total += army1.Fire(distance);
             }
             else
             {
-                Console.WriteLine($"---Ход армии 2---");
+                Console.WriteLine("---Ход армии 2---");
                 if (army2.GetRange() < distance)
                 {
-                    Console.WriteLine($"Армия 2 перемещается ближе на {army2.GetSpeed()}");
+                    Console.WriteLine("Армия 2 перемещается ближе на {0}", army2.GetSpeed());
                     distance = constrainToPositive(distance - army2.GetSpeed());
                 }
-                Console.WriteLine($"Армия 2 наносит {army2.Fire(distance)} урона сопернику");
+                Console.WriteLine("Армия 2 наносит {0} урона сопернику", army2.Fire(distance));
                 army2Total += army2.Fire(distance);
             }
-            Console.WriteLine($"Дистанция = {distance}");
+            Console.WriteLine("Дистанция = {0}", distance);
             Console.WriteLine();
             turn *= -1;
         }
@@ -50,8 +50,8 @@ namespace Strategy_Game_Composite
         public void PrintScores()
         {
             Console.WriteLine("---Итоги---");
-            Console.WriteLine($"Армия 1 нанесла {army1Total} урона");
-            Console.WriteLine($"Армия 2 нанесла {army2Total} урона");
+            Console.WriteLine("Армия 1 нанесла {0} урона", army1Total);
+            Console.WriteLine("Армия 2 нанесла {0} урона", army2Total);
         }
 
         private int constrainToPositive(int a)
